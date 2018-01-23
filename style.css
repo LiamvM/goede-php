@@ -1,0 +1,53 @@
+#morning {
+	font-size: 60px;
+	margin-top: 15%;
+}
+
+#afternoon {
+	font-size: 60px;
+	margin-top: 15%;
+}
+
+#evening {
+	font-size: 60px;
+	margin-top: 15%;
+}
+
+#night {
+	font-size: 60px;
+	margin-top: 15%;
+}
+
+#morningimage {
+	background-image: url(backgrounds/morning.png);
+	background-size: cover;
+	transition: opacity 1s ease-in-out;
+}
+
+#afternoonimage {
+	background-image: url(backgrounds/afternoon.png);
+	background-size: cover;
+	transition: opacity 1s ease-in-out;
+}
+
+#eveningimage {
+	background-image: url(backgrounds/evening.png);
+	background-size: cover;
+	transition: opacity 1s ease-in-out;
+}
+
+#nightimage {
+	background-image: url(backgrounds/night.png);
+	background-size: cover;
+	transition: opacity 1s ease-in-out;
+}
+
+#time {
+	font-size: 60px;
+}
+
+p {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	color: white;
+}

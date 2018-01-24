@@ -22,24 +22,28 @@
 	background-image: url(backgrounds/morning.png);
 	background-size: cover;
 	transition: opacity 1s ease-in-out;
+	background-repeat: no-repeat;
 }
 
 #afternoonimage {
 	background-image: url(backgrounds/afternoon.png);
 	background-size: cover;
 	transition: opacity 1s ease-in-out;
+	background-repeat: no-repeat;
 }
 
 #eveningimage {
 	background-image: url(backgrounds/evening.png);
 	background-size: cover;
 	transition: opacity 1s ease-in-out;
+	background-repeat: no-repeat;
 }
 
 #nightimage {
 	background-image: url(backgrounds/night.png);
 	background-size: cover;
 	transition: opacity 1s ease-in-out;
+	background-repeat: no-repeat;
 }
 
 #time {
@@ -50,4 +54,74 @@ p {
 	text-align: center;
 	font-family: 'Lobster', cursive;
 	color: white;
+}
+
+#flight {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	z-index: 10;
+	animation-name: flight;
+	animation-duration: 18s;    
+	animation-timing-function: linear;
+	top: 20px;
+	left: -100px;
+	animation-iteration-count: infinite;
+	overflow: hidden;
+
+}
+
+@keyframes flight {
+	0% {left: -600px; transform: rotate(0deg);}
+	49% {left: 2000px; transform: rotateY(0deg);}
+	50% {left: 2000px; transform: rotateY(180deg);}
+	51% {transform: rotateY(180deg);}
+	99% {transform: rotateY(180deg);}
+    100% {left: -600px; transform: rotateY(0deg);}
+
+}
+
+body {
+	overflow: hidden;
+}
+
+#airballoon {
+	width: 325px;
+	height: 250px;
+	position: absolute;
+	z-index: -1;
+	animation-name: airballoon;
+	animation-duration: 8s;    
+	animation-timing-function: ease-in-out;
+	top: 250px;
+	left: 10px;
+	animation-iteration-count: infinite;
+	overflow: hidden;
+}
+
+@keyframes airballoon {
+	0% {top: 250px;}
+	50% {top: 200px;}
+	100% {top: 250px;}
+
+}
+
+#cloud {
+	width: 325px;
+	height: 250px;
+	position: absolute;
+	z-index: -1;
+	animation-name: cloud;
+	animation-duration: 50s;    
+	animation-timing-function: ease-in-out;
+	top: 20px;
+	left: -200px;
+	animation-iteration-count: infinite;
+	overflow: hidden;
+}
+
+@keyframes cloud {
+	0% {left: -500px; }
+	100% {left: 1500px;}
+
 }

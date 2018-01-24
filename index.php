@@ -7,8 +7,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 </head>
 <body>
-
-	
+	<div>
+		<img id="flight" src="backgrounds/airplane.png">
+	</div>
+	<div>
+		<img id="airballoon" src="backgrounds/airballoon.jpg">
+	</div>
+	<div>
+		<img id="cloud" src="backgrounds/cloud.png">
+	</div>
 	<?php require 'main.php';?>
 	<p id="time"></p>
 	<script src="time.js" type="text/javascript"></script>

@@ -16,6 +16,12 @@
 	<div>
 		<img id="cloud" src="backgrounds/cloud.png">
 	</div>
+	<div>
+		<img id="rails" src="backgrounds/trainrails.png">
+	</div>
+	<div>
+		<img id="train" src="backgrounds/train.png">
+	</div>
 	<?php require 'main.php';?>
 	<p id="time"></p>
 	<script src="time.js" type="text/javascript"></script>
